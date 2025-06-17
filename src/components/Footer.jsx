@@ -5,7 +5,7 @@ import { SiLeetcode, SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#151515] text-gray-300 text-center py-6 px-4">
+    <footer className="bg-[#151515] text-gray-300 text-center py-5 px-4">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}

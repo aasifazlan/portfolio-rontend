@@ -14,7 +14,8 @@ const projects = [
         content: "Built with React, Tailwind, Cloudinary & MongoDB. Rich text editor, auth, image uploads.",
       },
     ],
-    link: ["https://unscriptedindia.in",
+    link: [
+      "https://unscriptedindia.in",
       "https://ui-optimised-frontend.vercel.app/"
     ],
     github: "https://github.com/aasifazlan/unscripted-india"
@@ -34,7 +35,23 @@ const projects = [
     link: "https://mern-ecom-frontend-indol.vercel.app/",
     github: "https://github.com/aasifazlan/Mern-Stack-ECOM"
   },
+  {
+    title: "YourAI-ChatGPT Clone",
+    pages: [
+      {
+        heading: "Chat App – AI Q&A",
+        content: "Chat interface built with React & Markdown rendering. Ask interview questions and get AI answers.",
+      },
+      {
+        heading: "Backend & Features",
+        content: "MERN stack, JWT Auth, OpenAI API, chat history, markdown formatting, and secure cookie-based auth.",
+      },
+    ],
+    link: "https://yourai-five.vercel.app/",
+    github: "https://github.com/aasifazlan/ChatGPT-Clone-Client"
+  }
 ];
+
 
 export default function Projects() {
   const [currentPages, setCurrentPages] = useState(projects.map(() => 0));

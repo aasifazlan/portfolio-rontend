@@ -86,7 +86,7 @@ const Navbar = () => {
           </div>
 
           {/* Icons: Download + View Resume */}
-          <div className="flex space-x-3 items-center ml-2">
+          {/* <div className="flex space-x-3 items-center ml-2">
             <a
               href="/resume.pdf"
               download
@@ -104,7 +104,7 @@ const Navbar = () => {
             >
               <Eye className="w-5 h-5" />
             </a>
-          </div>
+          </div> */}
 
           {/* Mobile Toggle */}
           <div className="md:hidden">
